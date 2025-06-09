@@ -1,0 +1,371 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 70px 120px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+nav a{
+    color: rgb(115, 115, 115);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+}
+
+.btn-menyu{
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.red{
+    display: flex;
+    align-items: center;
+}
+
+.content h1{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 50px;
+font-weight: 900;
+line-height: 59px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.vip{
+    border-radius: 7px;
+
+background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%,rgb(46, 49, 146) 99.506%);
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 900;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+width: 179px;
+height: 53px;
+margin-top: 54px;
+}
+
+#hero{
+    padding: 70px 120px;
+}
+
+#hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card p{
+    margin: 15px;
+}
+
+.card h2{
+    margin: 15px;
+}
+
+
+.card{
+    width: 300px;
+height: 414px;
+border-radius: 9px;
+border: 1px solid rgb(244, 233, 233);
+background: rgb(255, 255, 255);
+}
+
+.card img{
+    border-radius: 9px;
+}
+
+
+.wero{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 400;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#rotate{
+    padding: 70px 120px;
+    background-image: url(./подложка\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#rotate .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+#dero{
+    flex-wrap: wrap;
+}
+
+#dero .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+    background: linear-gradient(141.88deg, rgba(212, 20, 90, 0.25) 0.926%,rgba(46, 49, 146, 0.25) 104.886%);
+    width: 100%;
+    height: 357px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.box4 img{
+    position: relative;
+    left: 160px;
+    bottom: 50px;
+
+}
+.box2 img{
+    position: relative;
+    left: 230px;
+    bottom: 50px;
+
+}
+
+.box3 img{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+
+}
+
+.box2{
+    border-radius: 9px;
+    position: absolute;
+    left: -200px;
+
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+background: rgb(247, 238, 238);
+width: 500px;
+height: 187px;
+}
+
+.box3{
+    border-radius: 9px;
+    margin-left: 360px;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+width: 500px;
+height: 187px;
+}
+
+.box4{
+    border-radius: 9px;
+    position: absolute;
+    right: -200px;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+background: rgb(234, 225, 225);
+width: 500px;
+height: 187px;
+}
+
+#dero p{
+    width: 445px;
+height: 74px;
+color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+margin-top: -40px;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.chiziq{
+    width: 100px;
+    height: 2px;
+    margin-left: 230px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(3, 3, 74);
+}
+.chiziq1{
+    width: 100px;
+    height: 2px;
+    margin-left: 190px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(3, 3, 74);
+}
+.chiziq2{
+    width: 100px;
+    height: 2px;
+    margin-left: 160px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 74);
+}
+
+.old p{
+    width: 224px;
+height: 91px;
+color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+}
+
+.old img{
+    margin-top: 10px;
+}
+
+
+
+footer{
+    padding: 0px 120px;
+}
+
+footer .container{
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+@media (max-width:768px) {
+    nav{
+        display: none;
+
+    }
+    .btn-menyu{
+        display: block;
+    }
+    header{
+        padding: 70px 60px;
+    }
+    #hero{
+        padding: 70px 60px;
+    }
+
+    .card{
+        width: 594px;
+        height: 325px;
+        margin-top: 350px;
+        font-size:20px;
+    }
+    .card img{
+        width: 594px;
+    }
+
+    #wero{
+        width: 769px;
+        height: 948px;
+    }
+    
+
+
+}
+
+@media (max-width:568px) {
+    
+    .btn-menyu{
+        display: none;
+    }
+    header{
+        padding: 70px 60px;
+    }
+    header .container{
+        justify-content: center;
+    }
+
+    #hero img{
+        display: none;
+    }
+
+    .content h1{
+        text-align: center;
+    }
+
+     #hero .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #hero{
+        background-image: url(./подложка\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .yeloo{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .card{
+        width:440px;
+height: 550px;
+justify-content: center;
+margin-left: -60px;
+margin-top: 150px;
+
+    }
+    .card img{
+        width:440px;
+    }
+
+    .box2{
+        width: 267px;
+        height: 210px;
+    }
+
+    footer .container .old{
+        margin-bottom: 100px;
+        padding: 0;
+    }
+
+    footer .container{
+        justify-content: center;
+    }
+    
+}
+
+    
+.title211{
+    background-image: url(./Rectangle\ 18\ \(1\).png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
